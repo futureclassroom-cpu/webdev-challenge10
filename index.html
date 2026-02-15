@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NextTournament 2026</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="neon-glow"></div>
+
+    <div class="hero-content">
+        <h1>NextTournament</h1>
+        <p class="sub">MLBB Tournament • March 5–14, 2026 • Jakarta</p>
+
+        <h2>
+            ONE TEAM, ONE VISION<br>
+            ONE BATTLE, ONE MISSION<br>
+            ONE CHAMPION RISES
+        </h2>
+
+        <!-- COUNTDOWN -->
+        <div class="countdown">
+            <div><span id="days">00</span><small>Days</small></div>
+            <div><span id="hours">00</span><small>Hours</small></div>
+            <div><span id="minutes">00</span><small>Minutes</small></div>
+            <div><span id="seconds">00</span><small>Seconds</small></div>
+        </div>
+
+        <a href="#registration" class="btn-primary">Register Now</a>
+    </div>
+</section>
+
+<!-- SPONSORS -->
+<section class="sponsors">
+    <h3>Our SPONSORS</h3>
+    <div class="sponsor-wrapper">
+        <div class="sponsor-track">
+            <!-- Original -->
+            <img src="images/sponsor1.png" alt="Sponsor 1">
+            <img src="images/sponsor2.png" alt="Sponsor 2">
+            <img src="images/sponsor3.png" alt="Sponsor 3">
+            <img src="images/sponsor4.png" alt="Sponsor 4">
+            <img src="images/sponsor5.png" alt="Sponsor 5">
+            <img src="images/sponsor6.png" alt="Sponsor 6">
+            <img src="images/sponsor7.png" alt="Sponsor 7">
+            <!-- Duplicate -->
+            <img src="images/sponsor1.png" alt="Sponsor 1">
+            <img src="images/sponsor2.png" alt="Sponsor 2">
+            <img src="images/sponsor3.png" alt="Sponsor 3">
+            <img src="images/sponsor4.png" alt="Sponsor 4">
+            <img src="images/sponsor5.png" alt="Sponsor 5">
+            <img src="images/sponsor6.png" alt="Sponsor 6">
+            <img src="images/sponsor7.png" alt="Sponsor 7">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <div class="about-text">
+        <h2>NextTournament</h2>
+        <br>
+        <p>
+            Get ready to experience the ultimate battlefield challenge in our Mobile Legends Tournament 2026! This event brings together the most competitive teams to showcase strategy, teamwork, and mechanical skill in an intense 5v5 showdown
+            More than just a game, this tournament is a stage for players to prove their synergy, decision-making, and mental strength under pressure. Every draft matters, every rotation counts, and every team fight can change the course of the match.
+            Whether you’re aiming to claim the championship title or simply test your team’s coordination against worthy opponents, this is your moment to rise. Compete, adapt, dominate — and let the Land of Dawn witness your path to victory
+        </p>
+    </div>
+
+    <div class="about-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/q3S4-KvsJ0M?si=iEjPvkOTH2NKWVfa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+
+<!-- HIGHLIGHT SECTION -->
+<section class="highlight">
+    <h2>The MLBB audience will grow to more than 10 million by 2026. Don't miss out.</h2>
+
+    <div class="highlight-cards">
+
+        <div class="card highlight-card card-1">
+            <div class="card-overlay"></div>
+            <div class="card-content">
+                <h3>Who Will Attend?</h3>
+                <p>Passionate Mobile Legends players, including amateur and semi-pro teams, students, esports communities, and gaming enthusiasts who are eager to compete and showcase their skills.</p>
+            </div>
+        </div>
+
+        <div class="card highlight-card card-2">
+            <div class="card-overlay"></div>
+            <div class="card-content">
+                <h3>The Market</h3>
+                <p>The Mobile Legends esports market is projected to reach $1.2 billion by 2026, driven by growing global participation and increased investment in competitive gaming infrastructure.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- EXPERIENCE (UPDATED) -->
+<section class="experience">
+    <div class="grid">
+
+        <div class="grid-item dark">
+            <img src="images/experience1.jpeg" alt="Tournament Arena">
+            <p>The NextTournament has reached millions of viewers worldwide, becoming one of the most-watched mobile esports tournaments globally</p>
+        </div>
+
+        <div class="grid-item light">
+            <img src="images/experience2.jpeg" alt="Esports Stage">
+            <p>The tournament features top teams from multiple regions including Southeast Asia, Latin America, the Middle East, and Europe, establishing itself as a truly global championship.</p>
+        </div>
+
+        <div class="grid-item dark">
+            <img src="images/experience3.jpeg" alt="Gaming Setup">
+            <p>The tournament offers a multi-million-rupiah prize pool, raising the competitive standard and solidifying its position as one of the most prestigious events in mobile esports.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- REGISTRATION -->
+<section id="registration" class="registration">
+    <h2>TOURNAMENT REGISTRATION</h2>
+
+    <form id="regForm">
+        <select required>
+    <option value="">-- Select Category --</option>
+    <option>MLBB Boys High School/Vocational Equivalent</option>
+    <option>MLBB Girls High School/Vocational Equivalent</option>
+    <option>MLBB Boys Junior High Equivalent</option>
+    <option>MLBB Girls Junior High Equivalent</option>
+</select>
+
+<label>Team Name</label>
+<input type="text" required>
+
+        <input type="text" required>
+
+        <div class="roster-title">TEAM ROSTER</div>
+
+        <div class="roster-grid">
+            <input type="text" placeholder="Jungler Username" required>
+            <input type="text" placeholder="Midlaner Username" required>
+            <input type="text" placeholder="Explaner Username" required>
+            <input type="text" placeholder="Goldlaner Username" required>
+            <input type="text" placeholder="Tank/Support Username" required>
+            <input type="text" placeholder="Supersub Username">
+            <input type="text" placeholder="Coach Username" required>
+            <input type="text" placeholder="Analis Username" required>
+        </div>
+
+        <button type="submit" class="btn-primary submit-btn">Submit Registration</button>
+    </form>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+    <div class="testimonial-container">
+
+        <div class="testimonial-item active">
+            <img src="https://dailyspin.id/wp-content/uploads/2024/12/Oura.jpg" alt="Speaker 1">
+            <p>
+                "M-Series has elevated mobile esports to a global level. The production quality, international representation, and competitive intensity prove that Mobile Legends is a powerhouse in the esports industry."
+            </p>
+            <h4>— Oura</h4>
+        </div>
+
+        <div class="testimonial-item">
+            <img src="https://dailyspin.id/wp-content/uploads/2024/09/Mas-Ade-2.jpg" alt="Speaker 2">
+            <p>
+                "The M-Series is the ultimate stage for every Mobile Legends player. The level of competition, the pressure, and the global audience push you to perform at your absolute best."
+            </p>
+            <h4>— set1awanade</h4>
+        </div>
+
+        <div class="testimonial-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3RhfD_M8j39r0N-rOFw6bjSCLdDIVVZs7_Q&s" alt="Speaker 3">
+            <p>
+                "Watching the M-Series is always an incredible experience. The matches are intense, the comebacks are unforgettable, and the energy makes you feel part of something huge."
+            </p>
+            <h4>— DEANKT</h4>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <div>
+            <h3>EsportsTraveler</h3>
+            <p>© 2025 All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const testimonials = document.querySelectorAll(".testimonial-item");
+    let currentTestimonial = 0;
+
+    setInterval(() => {
+        testimonials[currentTestimonial].classList.remove("active");
+
+        currentTestimonial++;
+        if (currentTestimonial >= testimonials.length) {
+            currentTestimonial = 0;
+        }
+
+        testimonials[currentTestimonial].classList.add("active");
+    }, 4000);
+    
+    const eventDate = new Date("March 5, 2026 00:00:00").getTime();
+
+    const timer = setInterval(function() {
+        const now = new Date().getTime();
+        const distance = eventDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerText = days;
+        document.getElementById("hours").innerText = hours;
+        document.getElementById("minutes").innerText = minutes;
+        document.getElementById("seconds").innerText = seconds;
+
+        if (distance < 0) {
+            clearInterval(timer);
+            document.querySelector(".countdown").innerHTML = "TOURNAMENT STARTED!";
+        }
+    }, 1000);
+
+</script>
+
+
+</body>
+</html>
